@@ -13,7 +13,46 @@
 
 </head>
 
-<body>
+<body class="page">
+
+  <header class="page__header">
+    <h1 class="logo"><img src="images/logo.svg" alt="SPLITTER"></h1>
+  </header>
+
+  <section class="calculator">
+
+    <div class="calculator__initial-data">
+
+      <div class="calculator__sum">
+        <h2 class="calculator__heading">Bill</h2>
+        <input class="calculator__input" type="text" dir="rtl">
+      </div>
+
+      <div class="calulator__tip">
+        <h2 class="calculator__heading">Select Tip %</h2>
+        <button class="calculator__tip">5%</button>
+        <button class="calculator__tip">10%</button>
+        <button class="calculator__tip">15%</button>
+        <button class="calculator__tip">25%</button>
+        <button class="calculator__tip">50%</button>
+        <input class="calculator__input calculator__input--tip" type="text" dir="rtl" placeholder="Custom">
+      </div>
+
+      <div class="calculator__people">
+        <h2 class="calculator__heading">Number of People</h2>
+        <input class="calculator__input" type="text" dir="rtl">
+      </div>
+
+    </div>
+
+
+    <div class="calculator__summary">
+      <h2 class="calculator__heading">Tip Amount <span class="calculator__heading-accent">/ person</span></h2>
+      <h2 class="calculator__heading">Total<span class="calculator__heading-accent">/ person</span></h2>
+      <button class="calculator__btn-reset">Reset</button>
+    </div>
+
+  </section>
 
   <script src="main.js"></script>
 </body>
