@@ -1,0 +1,56 @@
+.calculator {
+
+    &_heading,
+    &_input,
+    &_tip,
+    &_btn {
+        line-height: 1.5;
+    }
+
+    &__input,
+    &__amount,
+    &__btn {
+        font-weight: $weight-Bold;
+    }
+
+    &__input,
+    &__tip {
+        font-size: $size-XL;
+    }
+
+    &__tip {
+        color: $clr-txt-White;
+    }
+
+    &__input,
+    &__btn {
+        color: $clr-txt-Sherpa-Blue;
+    }
+
+    &__heading {
+        color: $clr-txt-Cutty-Sark;
+        font-size: $size-M;
+
+        &--clr {
+            color: $clr-txt-White;
+        }
+    }
+
+    &__subhead {
+        color: $clr-txt-Granny-Smith;
+        font-size: $size-S;
+        line-height: 1.462;
+    }
+
+    &__amount {
+        color: $clr-txt-Java;
+        font-size: $size-XXL;
+        line-height: 1.469;
+        letter-spacing: -.67px;
+    }
+
+    &__btn {
+        font-size: $size-L;
+        text-transform: uppercase;
+    }
+}
